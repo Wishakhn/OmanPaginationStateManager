@@ -1,0 +1,164 @@
+[versions]
+agp = "8.1.0"
+org-jetbrains-kotlin-android = "1.8.0"
+core-ktx = "1.12.0"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+appcompat = "1.6.1"
+material = "1.9.0"
+kotlin = "1.9.0"
+activity = "1.7.2"
+
+desugaring-version = "2.0.3"
+
+camera = "1.4.0-alpha01"
+barcode = "17.2.0"
+
+glide-version = "4.15.1"
+
+accompanist-version = "0.31.0-alpha"
+
+core = "0.6.3"
+
+firebaseMessaging = "23.2.1"
+
+compose-multiplatform = "1.5.0"
+
+koin-compose-jb = "1.0.3"
+koin-version = "3.4.2"
+koin-compose-version = "3.4.2"
+
+kotlinxCoroutinesCore = "1.7.3"
+kotlinxDatetime = "0.4.0"
+kotlinxSerializationCore = "1.3.3"
+
+image-loader-version = "1.6.5"
+
+voyager = "1.0.0-rc07"
+
+gms-services = "4.4.0"
+
+androidxComposeBom = "2023.09.01"
+
+coreSplashscreen = "1.0.1"
+
+multidex = "2.0.1"
+
+workRuntime = "2.8.1"
+
+gitlive-version = "1.8.1"
+
+kmm-viewmodel = "1.0.0-ALPHA-9"
+
+coil-version = "2.2.2"
+
+sqlDelightVersion = "1.5.5"
+
+kotlin-serialization = "1.5.1"
+
+atomicfu-version = "0.21.0"
+
+lifecycle-runtime-version = "2.6.2"
+firebaseBomVersion = "32.7.0"
+mokoPermissionsVersion = "0.17.0"
+
+coi-version = "3.0.0-alpha03"
+
+[libraries]
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coi-version" }
+coil-core = { module = "io.coil-kt.coil3:coil", version.ref = "coi-version" }
+coil-ktor = { module = "io.coil-kt.coil3:coil-network-ktor", version.ref = "coi-version" }
+coil-android = { module = "io.ktor:ktor-client-android", version.ref = "coi-version" }
+
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycle-runtime-version" }
+
+desugaring = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugaring-version" }
+
+camera-extension = { module = "androidx.camera:camera-extensions", version.ref = "camera" }
+camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "camera" }
+camera-view = { module = "androidx.camera:camera-view", version.ref = "camera" }
+barcode-scanner = { module = "com.google.mlkit:barcode-scanning", version.ref = "barcode" }
+
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide-version" }
+
+accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist-version" }
+accompnistPager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanist-version" }
+pagerIndicator = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanist-version" }
+androidGradle = { module = "com.android.tools.build:gradle", version = "8.0.2" }
+islandtime = { module = "io.islandtime:core", version.ref = "core" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebaseMessaging" }
+kotlinGradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+composeGradle = { module = "org.jetbrains.compose:compose-gradle-plugin", version.ref = "compose-multiplatform" }
+compose-util = { module = "org.jetbrains.compose.ui:ui-util", version.ref = "compose-multiplatform" }
+
+placeHolder = { module = "com.google.accompanist:accompanist-placeholder-material", version.ref = "accompanist-version" }
+
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin-version" }
+koin-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin-compose-version" }
+koin-compose-mp = { module = "io.insert-koin:koin-compose", version.ref = "koin-compose-jb" }
+
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinxDatetime" }
+kotlin-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlin-serialization" }
+
+image-loader = { module = "io.github.qdsfdhvh:image-loader", version.ref = "image-loader-version" }
+
+voyager-navigator = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyager" }
+voyager-bottomSheetNavigator = { module = "cafe.adriel.voyager:voyager-bottom-sheet-navigator", version.ref = "voyager" }
+voyager-tabNavigator = { module = "cafe.adriel.voyager:voyager-tab-navigator", version.ref = "voyager" }
+voyager-transitions = { module = "cafe.adriel.voyager:voyager-transitions", version.ref = "voyager" }
+voyager-koin = { module = "cafe.adriel.voyager:voyager-koin", version.ref = "voyager" }
+
+gms-services = { module = "com.google.gms:google-services", version.ref = "gms-services" }
+
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBom" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation" }
+androidx-compose-toolingdebug = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-material = { group = "androidx.compose.material", name = "material" }
+
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
+androidx-multidex = { module = "androidx.multidex:multidex", version.ref = "multidex" }
+androidx-work-runtime = { module = "androidx.work:work-runtime", version.ref = "workRuntime" }
+androidx-coreKtx = { module = "androidx.core:core-ktx", version.ref = "core-ktx" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity" }
+androidx-compose-util = { group = "androidx.compose.ui", name = "ui-util" }
+
+auth-live = { module = "dev.gitlive:firebase-auth", version.ref = "gitlive-version" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBomVersion" }
+firestore-live = { module = "dev.gitlive:firebase-firestore", version.ref = "gitlive-version" }
+config-live = { module = "dev.gitlive:firebase-config", version.ref = "gitlive-version" }
+
+coil = { module = "io.coil-kt:coil-compose", version.ref = "coil-version" }
+
+kmm-viewmodel = { module = "com.rickclephas.kmm:kmm-viewmodel-core", version.ref = "kmm-viewmodel" }
+
+atomicfu = { module = "org.jetbrains.kotlinx:atomicfu", version.ref = "atomicfu-version" }
+
+#Sql delight dependencies
+sql-gradle-plugin = { module = "com.squareup.sqldelight:gradle-plugin", version.ref = "sqlDelightVersion" }
+sql-common-main = { module = "com.squareup.sqldelight:runtime", version.ref = "sqlDelightVersion" }
+sql-android-main = { module = "com.squareup.sqldelight:android-driver", version.ref = "sqlDelightVersion" }
+sql-ios-main = { module = "com.squareup.sqldelight:native-driver", version.ref = "sqlDelightVersion" }
+mokoPermissionsCompose = { module = "dev.icerock.moko:permissions-compose", version.ref = "mokoPermissionsVersion" }
+mokoPermissions = { module = "dev.icerock.moko:permissions", version.ref = "mokoPermissionsVersion" }
+
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "agp" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+
+kotlin-android-plugin = { id = "android", version.ref = "kotlin" }
+kotlin-multiplatform-plugin = { id = "multiplatform", version.ref = "kotlin" }
+kotlin-serialization-plugin = { id = "plugin.serialization", version.ref = "kotlin" }
+
+[bundles]
+
